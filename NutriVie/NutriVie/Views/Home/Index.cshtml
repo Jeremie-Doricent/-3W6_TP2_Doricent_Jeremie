@@ -1,4 +1,6 @@
-﻿@{
+﻿@using NutriVie.Models.data
+@model IEnumerable<Service>
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -32,32 +34,26 @@
         <!-- LES SERVICES -->
         <div class="cards-services">
 
-            <!-- Service 1 - -->
-            <div class="service-card">
-                <div class="card_media"></div>
-                <div class="card_content">
-                    <h4>Recettes Saines</h4>
-                    <p>Des recettes équilibrées et faciles à préparer pour toute la famille.</p>
-                </div>
-            </div>
 
-            <!-- Service 2 -->
-            <div class="service-card">
-                <div class="card_media"></div>
-                <div class="card_content">
-                    <h4>Plans Nutritionnels</h4>
-                    <p>Des plans alimentaires personnalisés par nos nutritionnistes.</p>
+            @foreach(var service in Model)
+            {
+                
+                <div class="service-card">
+                    <div class="card_media"></div>
+                    <div class="card_content">
+                        <h4>@service.Nom</h4>
+                        <p>@service.Description</p>
+                    </div>
                 </div>
-            </div>
+            }
 
-            <!-- Service 3 -->
-            <div class="service-card">
-                <div class="card_media"></div>
-                <div class="card_content">
-                    <h4>Conseils d'Experts</h4>
-                    <p>Des articles et guides sur la nutrition et le bien-être.</p>
-                </div>
-            </div>
+
+
+
+
+
+           
+                
         </div>
     </div>
 </section>
