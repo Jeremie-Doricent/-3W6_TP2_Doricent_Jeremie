@@ -6,7 +6,7 @@ namespace NutriVie.Models
     public class Service
     {
         [Key]
-        public int id { get; set; } 
+        public int Id { get; set; } 
 
         [Range(5, 20)]
         public string Nom { get; set; }

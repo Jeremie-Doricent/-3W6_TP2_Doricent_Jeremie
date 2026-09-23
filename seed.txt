@@ -1,30 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
-
-namespace NutriVie.Models.data
-{
-    public class NutriVieDbContext:DbContext
-
-    {
-        public NutriVieDbContext(DbContextOptions<NutriVieDbContext> options) : base(options)
-        {
-
-        }
-        public DbSet<Service> Services { get; set; }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Service>().HasData(
-               new Service() { Id = 1, Nom = "Recettes Saines", Description = "Des recettes équilibrées et faciles à préparer pour toute la famille." },
-               new Service() { Id = 2, Nom = "Plans Nutritionnels", Description = "Des plans alimentaires personnalisés par nos nutritionnistes." },
-               new Service() { Id = 3, Nom = "Conseils d'Experts", Description = "Des articles et guides sur la nutrition et le bien-être." }
-            );
-
             modelBuilder.Entity<Categorie>().HasData(
-                   new Categorie() { Id = 1, Nom = "Française" },
-                   new Categorie() { Id = 2, Nom = "Indienne" },
-                   new Categorie() { Id = 3, Nom = "Africaine" },
-                   new Categorie() { Id = 4, Nom = "Italienne" },
-                   new Categorie() { Id = 5, Nom = "Orientale" }
-            );
+                   new Categorie() { Id = 1, Nom = "Française"},
+                   new Categorie() { Id = 2, Nom = "Indienne"},
+                   new Categorie() { Id = 3, Nom = "Africaine"},
+                   new Categorie() { Id = 4, Nom = "Italienne"},
+                   new Categorie() { Id = 5, Nom = "Orientale"});
 
             modelBuilder.Entity<Recette>().HasData(
                     new Recette() { Id = 1, Nom = "Boeuf bourguignon", Description = "Ragoût traditionnel français au boeuf et vin rouge.", TempsPreparation = 30, TempsCuisson = 180, Image = "Boeuf_bourguignon.jpg", CategorieId = 1 },
@@ -36,14 +15,4 @@ namespace NutriVie.Models.data
                     new Recette() { Id = 7, Nom = "Lasagne", Description = "Pâtes gratinées avec viande et sauce tomate.", TempsPreparation = 45, TempsCuisson = 60, Image = "Lasagne.jpg", CategorieId = 4 },
                     new Recette() { Id = 8, Nom = "Risotto aux champignons", Description = "Riz crémeux italien aux champignons.", TempsPreparation = 15, TempsCuisson = 35, Image = "Risotto_Champignons.jpg", CategorieId = 4 },
                     new Recette() { Id = 9, Nom = "Couscous yoyal", Description = "Semoule servie avec légumes et viandes variées.", TempsPreparation = 40, TempsCuisson = 90, Image = "Couscous_royal.jpg", CategorieId = 5 },
-                    new Recette() { Id = 10, Nom = "Shawarma", Description = "Viande marinée grillée servie dans un pain pita.", TempsPreparation = 25, TempsCuisson = 30, Image = "Shawarma.jpg", CategorieId = 5 }
-            );
-                
-
-
-        }
-   
-    
-    
-    }
-}
+                    new Recette() { Id = 10, Nom = "Shawarma", Description = "Viande marinée grillée servie dans un pain pita.", TempsPreparation = 25, TempsCuisson = 30, Image = "Shawarma.jpg", CategorieId = 5 });
