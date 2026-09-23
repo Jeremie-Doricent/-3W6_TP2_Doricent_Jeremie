@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\6325048\\Downloads\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CD041AF-3D59-4747-86E3-F9E606D5C665}|NutriVie\\NutriVie.csproj|c:\\users\\6325048\\downloads\\-3w6_tp2_doricent_jeremie\\nutrivie\\nutrivie\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9CD041AF-3D59-4747-86E3-F9E606D5C665}|NutriVie\\NutriVie.csproj|solutionrelative:nutrivie\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|c:\\users\\6325048\\downloads\\-3w6_tp2_doricent_jeremie\\nutrivie\\nutrivie\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|solutionrelative:nutrivie\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CD041AF-3D59-4747-86E3-F9E606D5C665}|NutriVie\\NutriVie.csproj|c:\\users\\6325048\\downloads\\-3w6_tp2_doricent_jeremie\\nutrivie\\nutrivie\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9CD041AF-3D59-4747-86E3-F9E606D5C665}|NutriVie\\NutriVie.csproj|solutionrelative:nutrivie\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|c:\\users\\6325048\\downloads\\-3w6_tp2_doricent_jeremie\\nutrivie\\nutrivie\\models\\data\\nutriviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|solutionrelative:nutrivie\\models\\data\\nutriviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CD041AF-3D59-4747-86E3-F9E606D5C665}|NutriVie\\NutriVie.csproj|c:\\users\\6325048\\downloads\\-3w6_tp2_doricent_jeremie\\nutrivie\\nutrivie\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9CD041AF-3D59-4747-86E3-F9E606D5C665}|NutriVie\\NutriVie.csproj|solutionrelative:nutrivie\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|c:\\users\\6325048\\downloads\\-3w6_tp2_doricent_jeremie\\nutrivie\\nutrivie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|solutionrelative:nutrivie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CD041AF-3D59-4747-86E3-F9E606D5C665}|NutriVie\\NutriVie.csproj|c:\\users\\6325048\\downloads\\-3w6_tp2_doricent_jeremie\\nutrivie\\nutrivie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CD041AF-3D59-4747-86E3-F9E606D5C665}|NutriVie\\NutriVie.csproj|solutionrelative:nutrivie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|c:\\users\\6325048\\downloads\\-3w6_tp2_doricent_jeremie\\nutrivie\\nutrivie\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|solutionrelative:nutrivie\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CD041AF-3D59-4747-86E3-F9E606D5C665}|NutriVie\\NutriVie.csproj|c:\\users\\6325048\\downloads\\-3w6_tp2_doricent_jeremie\\nutrivie\\nutrivie\\nutrivie.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{9CD041AF-3D59-4747-86E3-F9E606D5C665}|NutriVie\\NutriVie.csproj|solutionrelative:nutrivie\\nutrivie.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|c:\\users\\6325048\\downloads\\-3w6_tp2_doricent_jeremie\\nutrivie\\nutrivie\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|solutionrelative:nutrivie\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|c:\\users\\6325048\\downloads\\-3w6_tp2_doricent_jeremie\\nutrivie\\nutrivie\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|solutionrelative:nutrivie\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|c:\\users\\6325048\\downloads\\-3w6_tp2_doricent_jeremie\\nutrivie\\nutrivie\\nutrivie.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|solutionrelative:nutrivie\\nutrivie.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +38,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NutriVieDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\6325048\\Downloads\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\NutriVie\\Models\\data\\NutriVieDbContext.cs",
+              "RelativeDocumentMoniker": "NutriVie\\Models\\data\\NutriVieDbContext.cs",
+              "ToolTip": "C:\\Users\\6325048\\Downloads\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\NutriVie\\Models\\data\\NutriVieDbContext.cs",
+              "RelativeToolTip": "NutriVie\\Models\\data\\NutriVieDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T14:31:57.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\6325048\\Downloads\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\NutriVie\\appsettings.json",
+              "RelativeDocumentMoniker": "NutriVie\\appsettings.json",
+              "ToolTip": "C:\\Users\\6325048\\Downloads\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\NutriVie\\appsettings.json",
+              "RelativeToolTip": "NutriVie\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-23T14:24:58.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\6325048\\Downloads\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\NutriVie\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "NutriVie\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\6325048\\Downloads\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\NutriVie\\wwwroot\\css\\site.css",
               "RelativeToolTip": "NutriVie\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAEwCAAAAAAAAAAAowDQDAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJEBAAAAAAAAAAAgwDQDAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-09-23T14:08:24.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\6325048\\Downloads\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\NutriVie\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "NutriVie\\Views\\Home\\Index.cshtml",
@@ -60,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\6325048\\Downloads\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\NutriVie\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "NutriVie\\Views\\Shared\\_Layout.cshtml",
@@ -73,20 +107,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\6325048\\Downloads\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\NutriVie\\Program.cs",
               "RelativeDocumentMoniker": "NutriVie\\Program.cs",
               "ToolTip": "C:\\Users\\6325048\\Downloads\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\NutriVie\\Program.cs",
               "RelativeToolTip": "NutriVie\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-23T14:05:22.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "NutriVie",
               "DocumentMoniker": "C:\\Users\\6325048\\Downloads\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\NutriVie\\NutriVie.csproj",
               "RelativeDocumentMoniker": "NutriVie\\NutriVie.csproj",
