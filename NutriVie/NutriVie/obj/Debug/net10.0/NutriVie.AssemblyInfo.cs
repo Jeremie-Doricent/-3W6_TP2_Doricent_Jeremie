@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NutriVie")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cace09d83001003df13f10fe770abac49b6497e0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d2beb4a283e92eca48d9969de0442b413f631ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("NutriVie")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NutriVie")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

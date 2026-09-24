@@ -3,3 +3,51 @@
 *@
 @{
 }
+@using NutriVie.Models.data
+@model IEnumerable<Recette>
+
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Description</th>
+            <th>DureePreparation</th>
+            <th>DureeCuisson</th>
+            <th>ImageUrl</th>
+            <th>Categorie</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Nom</td>
+                <td>@item.Description</td>
+                <td>@item.TempsPreparation</td>
+                <td>@item.TempsCuisson</td>
+                <td>
+                    <img src="(@item.Image") alt="@item.Nom" width="150" height="250" style="object-fit:cover;" />
+                </td>
+                <td>@Html.DisplayFor(m => item.categorie.Nom)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
