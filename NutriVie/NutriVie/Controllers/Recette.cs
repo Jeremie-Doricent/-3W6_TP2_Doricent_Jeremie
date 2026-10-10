@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using NutriVie.Models.data;
 
 namespace NutriVie.Controllers
@@ -14,11 +15,23 @@ namespace NutriVie.Controllers
         public IActionResult Index()
         {
 
-            return View(_BD.Recettes);
+            var recettes = _BD.Recettes
+        .Include(r => r.categorie)
+        .OrderBy(r => r.categorie.Nom)
+        .ThenBy(r => r.Nom).Include(r => r.categorie)
+        .ToList();
+            return View(recettes);
         }
-        public IActionResult Detail()
+        public IActionResult Details(int id)
         {
-            return View();
+            var recette = _BD.Recettes
+                .Include(r => r.categorie)
+                .FirstOrDefault(r => r.Id == id);
+
+            if (recette == null)
+                return NotFound();
+
+            return View(recette);
         }
     }
 }

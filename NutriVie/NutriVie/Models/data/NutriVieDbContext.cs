@@ -11,6 +11,7 @@ namespace NutriVie.Models.data
         }
         public DbSet<Service> Services { get; set; }
         public DbSet<Recette> Recettes  { get; set; }
+        public DbSet<Categorie> Categorie { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Service>().HasData(

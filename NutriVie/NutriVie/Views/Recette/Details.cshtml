@@ -1,0 +1,41 @@
+﻿@model Recette
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Recette</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Nom</dt>
+        <dd class="col-sm-10">@Model.Nom</dd>
+
+        <dt class="col-sm-2">Description</dt>
+        <dd class="col-sm-10">@Model.Description</dd>
+
+        <dt class="col-sm-2">Durée (min)</dt>
+        <dd class="col-sm-10">@Model.TempsPreparation</dd>
+
+        <dt class="col-sm-2">Cuisson (min)</dt>
+        <dd class="col-sm-10">@Model.TempsCuisson</dd>
+
+        <dt class="col-sm-2">Categorie</dt>
+        <dd class="col-sm-10">@Model.categorie.Nom</dd>
+
+        <dt class="col-sm-2">Image</dt>
+        <dd class="col-sm-10">
+            @if (!string.IsNullOrEmpty(Model.Image))
+            {
+                <img src="~/images/@Model.Image" alt="@Model.Nom" />
+            }
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
