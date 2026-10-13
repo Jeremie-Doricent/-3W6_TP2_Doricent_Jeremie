@@ -33,5 +33,28 @@ namespace NutriVie.Controllers
 
             return View(recette);
         }
+        public IActionResult Delete(int id)
+        {
+            var recette = _BD.Recettes
+                .Include(r => r.categorie)
+                .FirstOrDefault(r => r.Id == id);
+
+            if (recette == null)
+                return NotFound();
+
+            return View(recette);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        public IActionResult DeleteConfirmed(int id)
+        {
+            var recette = _BD.Recettes.Find(id);
+            if (recette != null)
+            {
+                _BD.Recettes.Remove(recette);
+                _BD.SaveChanges();
+            }
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
