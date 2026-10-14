@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using NutriVie.Models.data;
 
@@ -52,9 +53,53 @@ namespace NutriVie.Controllers
             if (recette != null)
             {
                 _BD.Recettes.Remove(recette);
-                _BD.SaveChanges();
+                
             }
             return RedirectToAction(nameof(Index));
         }
+        public IActionResult Edit(int id)
+        {
+               _BD.Recettes.Find(id);
+
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(Models.Recette recette)
+        {
+            if (ModelState.IsValid)
+            {
+                _BD.Recettes.Update(recette);
+
+                TempData["Success"] = $"{recette.Nom} zombie type added";
+                return this.RedirectToAction("Index");
+            }
+
+            return View(recette);
+        }
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        //POST
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Models.Recette recette)
+        {
+            if (ModelState.IsValid)
+            {
+                // Ajouter à la BD
+                _BD.Recettes.Add(recette);
+                
+                TempData["Success"] = $"{recette.Nom} zombie type added";
+                return this.RedirectToAction("Index");
+               
+            }
+            ViewBag.Categories = new SelectList(_BD.Categorie, "Id", "Nom", recette.CategorieId);
+            return this.View(recette);
+        }
+
     }
 }
