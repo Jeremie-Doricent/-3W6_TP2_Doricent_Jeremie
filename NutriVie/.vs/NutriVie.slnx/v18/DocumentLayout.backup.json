@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Jeremie\\OneDrive - C\u00E9gep \u00C9douard-Montpetit\\Bureau\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|c:\\users\\jeremie\\onedrive - c\u00E9gep \u00E9douard-montpetit\\bureau\\-3w6_tp2_doricent_jeremie\\nutrivie\\nutrivie\\views\\recette\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|solutionrelative:nutrivie\\views\\recette\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -24,6 +25,25 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|c:\\users\\jeremie\\onedrive - c\u00E9gep \u00E9douard-montpetit\\bureau\\-3w6_tp2_doricent_jeremie\\nutrivie\\nutrivie\\models\\data\\nutriviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|c:\\users\\admin\\onedrive\\desktop\\jeje\\-3w6_tp2_doricent_jeremie\\nutrivie\\nutrivie\\views\\recette\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|solutionrelative:nutrivie\\views\\recette\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|c:\\users\\admin\\onedrive\\desktop\\jeje\\-3w6_tp2_doricent_jeremie\\nutrivie\\nutrivie\\views\\recette\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|solutionrelative:nutrivie\\views\\recette\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|c:\\users\\admin\\onedrive\\desktop\\jeje\\-3w6_tp2_doricent_jeremie\\nutrivie\\nutrivie\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|solutionrelative:nutrivie\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|c:\\users\\admin\\onedrive\\desktop\\jeje\\-3w6_tp2_doricent_jeremie\\nutrivie\\nutrivie\\controllers\\recette.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|solutionrelative:nutrivie\\controllers\\recette.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|c:\\users\\admin\\onedrive\\desktop\\jeje\\-3w6_tp2_doricent_jeremie\\nutrivie\\nutrivie\\models\\data\\nutriviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{E6653E3C-C679-3E9B-E2EA-2A7E5C152D19}|NutriVie\\NutriVie.csproj|solutionrelative:nutrivie\\models\\data\\nutriviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -90,10 +110,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 0,
               "Title": "delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Jeremie\\OneDrive - C\u00E9gep \u00C9douard-Montpetit\\Bureau\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\NutriVie\\Views\\Recette\\delete.cshtml",
@@ -114,6 +135,15 @@
               "ToolTip": "C:\\Users\\Jeremie\\OneDrive - C\u00E9gep \u00C9douard-Montpetit\\Bureau\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\NutriVie\\Views\\Recette\\Details.cshtml",
               "RelativeToolTip": "NutriVie\\Views\\Recette\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+=======
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\jeje\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\NutriVie\\Views\\Recette\\Details.cshtml",
+              "RelativeDocumentMoniker": "NutriVie\\Views\\Recette\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\jeje\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\NutriVie\\Views\\Recette\\Details.cshtml",
+              "RelativeToolTip": "NutriVie\\Views\\Recette\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAGAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-10-10T18:03:05.632Z",
               "EditorCaption": ""
@@ -144,13 +174,21 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
+=======
+              "DocumentIndex": 2,
+>>>>>>> Stashed changes
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Jeremie\\OneDrive - C\u00E9gep \u00C9douard-Montpetit\\Bureau\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\NutriVie\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "NutriVie\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Jeremie\\OneDrive - C\u00E9gep \u00C9douard-Montpetit\\Bureau\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\NutriVie\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "NutriVie\\Views\\Home\\Index.cshtml",
+<<<<<<< Updated upstream
               "ViewState": "AgIAABIAAAAAAAAAAAAawCUAAAAhAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAkAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-09-23T14:08:02.279Z"
             },
@@ -168,12 +206,21 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
+=======
+              "DocumentIndex": 0,
+>>>>>>> Stashed changes
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Jeremie\\OneDrive - C\u00E9gep \u00C9douard-Montpetit\\Bureau\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\NutriVie\\Views\\Recette\\Index.cshtml",
               "RelativeDocumentMoniker": "NutriVie\\Views\\Recette\\Index.cshtml",
+<<<<<<< Updated upstream
               "ToolTip": "C:\\Users\\Jeremie\\OneDrive - C\u00E9gep \u00C9douard-Montpetit\\Bureau\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\NutriVie\\Views\\Recette\\Index.cshtml",
               "RelativeToolTip": "NutriVie\\Views\\Recette\\Index.cshtml",
+=======
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\jeje\\-3W6_TP2_Doricent_Jeremie\\NutriVie\\NutriVie\\Views\\Recette\\Index.cshtml*",
+              "RelativeToolTip": "NutriVie\\Views\\Recette\\Index.cshtml*",
+>>>>>>> Stashed changes
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-09-23T16:03:49.14Z",
@@ -189,8 +236,7 @@
               "RelativeToolTip": "NutriVie\\Controllers\\Recette.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAiwCMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-23T16:02:45.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-23T16:02:45.846Z"
             },
             {
               "$type": "Document",
