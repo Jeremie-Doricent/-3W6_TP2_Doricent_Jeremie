@@ -1,4 +1,4 @@
-﻿@model Recette
+﻿@model NutriVie.ViewModel.RecetteCate
 
 @{
     ViewData["Title"] = "Create";
@@ -14,33 +14,34 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
             <div class="form-group mb-3">
-                <label asp-for="Nom" class="control-label"></label>
-                <input asp-for="Nom" class="form-control" />
-                <span asp-validation-for="Nom" class="text-danger"></span>
+                <label asp-for="@Model.Recette.Nom" class="control-label"></label>
+                <input asp-for="@Model.Recette.Nom" class="form-control" />
+                <span asp-validation-for="@Model.Recette.Nom" class="text-danger"></span>
             </div>
             <div class="form-group mb-3">
-                <label asp-for="Description" class="control-label"></label>
-                <input asp-for="Description" class="form-control" />
-                <span asp-validation-for="Description" class="text-danger"></span>
+                <label asp-for="@Model.Recette.Description" class="control-label"></label>
+                <input asp-for="@Model.Recette.Description" class="form-control" />
+                <span asp-validation-for="@Model.Recette.Description" class="text-danger"></span>
             </div>
             <div class="form-group mb-3">
-                <label asp-for="TempsPreparation" class="control-label">Durée (min)</label>
-                <input asp-for="TempsPreparation" class="form-control" />
-                <span asp-validation-for="TempsPreparation" class="text-danger"></span>
+                <label asp-for="@Model.Recette.TempsPreparation" class="control-label">Durée (min)</label>
+                <input asp-for="@Model.Recette.TempsPreparation" class="form-control" />
+                <span asp-validation-for="@Model.Recette.TempsPreparation" class="text-danger"></span>
             </div>
             <div class="form-group mb-3">
-                <label asp-for="TempsCuisson" class="control-label">Cuisson (min)</label>
-                <input asp-for="TempsCuisson" class="form-control" />
-                <span asp-validation-for="TempsCuisson" class="text-danger"></span>
+                <label asp-for="@Model.Recette.TempsCuisson" class="control-label">Cuisson (min)</label>
+                <input asp-for="@Model.Recette.TempsCuisson" class="form-control" />
+                <span asp-validation-for="@Model.Recette.TempsCuisson" class="text-danger"></span>
             </div>
             <div class="form-group mb-3">
-                <label asp-for="Image" class="control-label"></label>
-                <input asp-for="Image" class="form-control" />
-                <span asp-validation-for="Image" class="text-danger"></span>
+                <label asp-for="@Model.Recette.Image" class="control-label"></label>
+                <input asp-for="@Model.Recette.Image" class="form-control" />
+                <span asp-validation-for="@Model.Recette.Image" class="text-danger"></span>
             </div>
             <div class="form-group mb-3">
-                <label asp-for="CategorieId" class="control-label">Catégorie</label>
-                <select asp-for="CategorieId" class="form-control" asp-items="ViewBag.Categories"></select>
+                <label asp-for="@Model.Recette.CategorieId" class="control-label">Catégorie</label>
+                <select asp-for="@Model.Recette.CategorieId" class="form-control form-select" asp-items="@Model.Cate"></select>
+                <span asp-validation-for="@Model.Recette.CategorieId" class="text-danger"></span>
             </div>
             <div class="form-group mb-3">
                 <input type="submit" value="Create" class="btn btn-success w-100" />

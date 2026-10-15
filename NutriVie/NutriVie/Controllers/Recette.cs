@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using NutriVie.Models.data;
+using NutriVie.ViewModel;
 
 namespace NutriVie.Controllers
 {
@@ -59,46 +60,59 @@ namespace NutriVie.Controllers
         }
         public IActionResult Edit(int id)
         {
-               _BD.Recettes.Find(id);
+            Models.Recette? recette = _BD.Recettes.Find(id);
 
-            return View();
+            if (recette == null)
+                return NotFound();
+
+            RecetteCate recetteCate = new RecetteCate();
+            recetteCate.Recette = recette;
+            recetteCate.Cate = new SelectList(_BD.Categorie.ToList(), "Id", "Nom", recette.CategorieId);
+
+            return View(recetteCate);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(Models.Recette recette)
+        public IActionResult Edit(RecetteCate recetteCate)
         {
             if (ModelState.IsValid)
             {
-                _BD.Recettes.Update(recette);
-
-                TempData["Success"] = $"{recette.Nom} zombie type added";
+                _BD.Recettes.Update(recetteCate.Recette);
+               
+                TempData["Success"] = $"Recette {recetteCate.Recette.Nom} modifiée";
                 return this.RedirectToAction("Index");
             }
 
-            return View(recette);
+            recetteCate.Cate = new SelectList(_BD.Categorie.ToList(), "Id", "Nom", recetteCate.Recette.CategorieId);
+
+            return View(recetteCate);
         }
         public IActionResult Create()
         {
-            return View();
+            RecetteCate recetteCate = new RecetteCate();
+
+            recetteCate.Cate = new SelectList(_BD.Categorie.ToList(), "Id", "Nom");
+
+            return View(recetteCate);
         }
 
-        //POST
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Models.Recette recette)
+        public IActionResult Create(RecetteCate recetteCate)
         {
+            // Si le modèle est valide, la recette est ajoutée et nous sommes redirigés vers Index.
             if (ModelState.IsValid)
             {
-                // Ajouter à la BD
-                _BD.Recettes.Add(recette);
-                
-                TempData["Success"] = $"{recette.Nom} zombie type added";
+                _BD.Recettes.Add(recetteCate.Recette);
+                _BD.SaveChanges();
+                TempData["Success"] = $"Recette {recetteCate.Recette.Nom} ajoutée";
                 return this.RedirectToAction("Index");
-               
             }
-            ViewBag.Categories = new SelectList(_BD.Categorie, "Id", "Nom", recette.CategorieId);
-            return this.View(recette);
+
+            recetteCate.Cate = new SelectList(_BD.Categorie.ToList(), "Id", "Nom");
+
+            return View(recetteCate);
         }
 
     }

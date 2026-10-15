@@ -10,7 +10,7 @@ namespace NutriVie.Models
 
         public string Nom { get; set; }
         [ValidateNever]
-        List<Recette> recettes { get; set; }
+      public  List<Recette> Recettes { get; set; }
         
 
     }

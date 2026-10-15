@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using NutriVie.Models.data;
 
 namespace NutriVie.Controllers
@@ -13,7 +14,12 @@ namespace NutriVie.Controllers
         }
         public IActionResult Index()
         {
-            return View(_Bd.Categorie);
+            var categories = _Bd.Categorie
+                .Include(c => c.Recettes.OrderBy(r => r.Nom))
+                .OrderByDescending(c => c.Nom)
+                .ToList();
+
+            return View(categories);
         }
     }
 }
