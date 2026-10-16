@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using NutriVie.Models.data;
+using NutriVie.ViewModel;
 
 namespace NutriVie.Controllers
 {
@@ -80,6 +82,33 @@ namespace NutriVie.Controllers
             }
 
             return this.View(categorie);
+        }
+        public IActionResult Edit(int id)
+        {
+            var recette = _Bd.Categorie.Find(id);
+
+            if (recette == null) { return NotFound();}
+                
+
+           
+
+            return View(recette);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(Models.Categorie categorie)
+        {
+            if (ModelState.IsValid)
+            {
+                _Bd.Categorie.Update(categorie);
+
+                TempData["Success"] = $"Recette {categorie.Nom} modifiée";
+                return this.RedirectToAction("Index");
+            }
+
+           
+            return View(categorie);
         }
     }
 }

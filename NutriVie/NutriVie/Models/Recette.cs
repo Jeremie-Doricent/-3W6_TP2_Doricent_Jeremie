@@ -21,6 +21,6 @@ namespace NutriVie.Models
         [ValidateNever]
         public Categorie categorie { get; set; }
 
-
+        public List<AlimentRecette> AlimentRecettes { get; set; }
     }
 }

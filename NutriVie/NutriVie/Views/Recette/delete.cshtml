@@ -28,13 +28,9 @@
         
         <td>
            
-               
-                <form asp-action="Delete" method="post">
-                    <input type="hidden" asp-for="Id" />
-                    <button type="submit" class="btn btn-danger">Supprimer</button> |
-                    <a asp-action="Index">Back to List</a>
-                </form>
-            
+               <div class="d-flex mb-3">
+            <partial name="_BoutonsDelete" />
+                </div>
            
         </td>
     </tr>

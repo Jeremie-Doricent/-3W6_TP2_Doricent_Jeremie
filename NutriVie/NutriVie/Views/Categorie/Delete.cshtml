@@ -1,5 +1,4 @@
-﻿
-@model Categorie
+﻿@model Categorie
 
 @{
     ViewData["Title"] = "Delete";
@@ -25,11 +24,8 @@
 
     <form asp-action="Delete" method="post">
         <input type="hidden" asp-for="Id" />
-        <button type="submit" class="btn btn-danger">Delete</button> |
-        <a asp-action="Index">Back to List</a>
+        <div class="d-flex mb-3">
+            <partial name="_BoutonsDelete" />
+        </div>
     </form>
-    @if (TempData["Succes"] != null)
-    {
-        <div class="alert alert-success">@TempData["Succes"]</div>
-    }
 </div>
