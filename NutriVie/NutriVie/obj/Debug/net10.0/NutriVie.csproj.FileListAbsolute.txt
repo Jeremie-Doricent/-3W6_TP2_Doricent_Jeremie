@@ -1386,3 +1386,5 @@ C:\Users\Jeremie\OneDrive - Cégep Édouard-Montpetit\Bureau\-3W6_TP2_Doricent_J
 C:\Users\Jeremie\OneDrive - Cégep Édouard-Montpetit\Bureau\-3W6_TP2_Doricent_Jeremie\NutriVie\NutriVie\obj\Debug\net10.0\NutriVie.pdb
 C:\Users\Jeremie\OneDrive - Cégep Édouard-Montpetit\Bureau\-3W6_TP2_Doricent_Jeremie\NutriVie\NutriVie\obj\Debug\net10.0\NutriVie.genruntimeconfig.cache
 C:\Users\Jeremie\OneDrive - Cégep Édouard-Montpetit\Bureau\-3W6_TP2_Doricent_Jeremie\NutriVie\NutriVie\obj\Debug\net10.0\ref\NutriVie.dll
+C:\Users\6325048\Desktop\-3W6_TP2_Doricent_Jeremie\NutriVie\NutriVie\bin\Debug\net10.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\6325048\Desktop\-3W6_TP2_Doricent_Jeremie\NutriVie\NutriVie\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Security.Cryptography.Pkcs.dll
